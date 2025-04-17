@@ -2,6 +2,7 @@
 
 A tool for managing Java environments on Windows systems, capable of automatically detecting, installing, uninstalling, and switching Java versions.
 
+zh_CN 简体中文 (Java_environment_choose/blob/main/README_CN.md)
 ## Usage Restrictions
 
 ### Scope of Use
