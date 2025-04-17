@@ -1,118 +1,118 @@
-# Java环境管理工具
+# Java Environment Management Tool
 
-这是一个用于管理Windows系统上Java环境的工具，可以自动检测、安装、卸载和切换Java版本。
+A tool for managing Java environments on Windows systems, capable of automatically detecting, installing, uninstalling, and switching Java versions.
 
-## 使用限制声明
+## Usage Restrictions
 
-### 使用范围
-- 本工具仅供个人学习交流使用
-- 禁止用于商业用途
-- 禁止用于生产环境
-- 禁止用于任何可能造成系统风险的环境
+### Scope of Use
+- This tool is for personal learning and communication purposes only
+- Commercial use is strictly prohibited
+- Use in production environments is strictly prohibited
+- Use in any environment that may pose system risks is strictly prohibited
 
-### 法律风险提示
-- 使用本工具可能涉及系统环境变量的修改，存在系统稳定性风险
-- 安装第三方 Java 发行版可能涉及许可协议合规性问题
-- 在非个人学习环境使用可能违反相关许可协议
-- 因使用本工具导致的任何法律纠纷由使用者自行承担
+### Legal Risk Notice
+- Using this tool may involve system environment variable modifications, posing system stability risks
+- Installing third-party Java distributions may involve license compliance issues
+- Use in non-personal learning environments may violate relevant license agreements
+- Users are solely responsible for any legal disputes arising from the use of this tool
 
-## 法律声明
+## Legal Notices
 
-### 商标声明
-- Java 是 Oracle 和/或其附属公司的注册商标
-- OpenJDK 是 Oracle 和/或其附属公司的商标
-- Amazon Corretto 是 Amazon.com, Inc. 或其附属公司的商标
-- Eclipse Temurin 是 Eclipse Foundation 的商标
-- Windows 是 Microsoft Corporation 的注册商标
+### Trademark Notice
+- Java is a registered trademark of Oracle and/or its affiliates
+- OpenJDK is a trademark of Oracle and/or its affiliates
+- Amazon Corretto is a trademark of Amazon.com, Inc. or its affiliates
+- Eclipse Temurin is a trademark of Eclipse Foundation
+- Windows is a registered trademark of Microsoft Corporation
 
-### 许可证说明
-- 本工具本身采用 GNU General Public License v3.0 (GPL-3.0) 许可证发布
-- 通过本工具安装的 Java 发行版受各自供应商的许可条款约束
-- 如果您修改了本工具的源代码并分发，必须：
-  - 使用相同的 GPL v3 许可证
-  - 提供修改后的源代码
-  - 保留原始版权声明
+### License Notice
+- This tool itself is released under the GNU General Public License v3.0 (GPL-3.0)
+- Java distributions installed through this tool are subject to their respective vendors' license terms
+- If you modify and distribute the source code of this tool, you must:
+  - Use the same GPL v3 license
+  - Provide the modified source code
+  - Retain the original copyright notice
 
-### 第三方软件许可
-本工具使用以下第三方库：
+### Third-Party Software Licenses
+This tool uses the following third-party libraries:
 - PyInstaller: GPL v2
 - requests: Apache License 2.0
-- 其他依赖项请参见 requirements.txt
+- Other dependencies can be found in requirements.txt
 
-### 隐私政策
-- 本工具不会收集、存储或传输任何用户数据
-- 网络连接仅用于下载 Java 安装包和验证版本信息
-- 所有下载操作都直接连接到官方源，不经过中间服务器
-- 不会记录用户的操作日志或系统信息
+### Privacy Policy
+- This tool does not collect, store, or transmit any user data
+- Network connections are only used for downloading Java installation packages and verifying version information
+- All downloads are directly connected to official sources, without intermediate servers
+- No user operation logs or system information are recorded
 
-### 免责声明
-- 本工具仅作为 Java 环境管理工具提供
-- 不对通过本工具安装的 Java 发行版的功能、安全性或兼容性提供任何保证
-- 建议用户直接从官方渠道下载 Java 发行版
-- 使用本工具的风险由用户自行承担
-- 不对因使用本工具导致的系统问题、数据丢失或业务中断负责
-- 不保证与所有 Windows 版本完全兼容
-- 保留随时修改或终止服务的权利
+### Disclaimer
+- This tool is provided solely as a Java environment management utility
+- No guarantees are provided for the functionality, security, or compatibility of Java distributions installed through this tool
+- Users are advised to download Java distributions directly from official channels
+- Users assume all risks associated with using this tool
+- No responsibility is taken for system issues, data loss, or business interruptions caused by using this tool
+- Compatibility with all Windows versions is not guaranteed
+- The right to modify or terminate the service is reserved
 
-## 功能特点
+## Features
 
-- 自动检测系统中已安装的Java版本
-- 支持安装多个Java版本（8/11/17/21）
-- 支持多个Java发行商（OpenJDK/Amazon Corretto/Eclipse Temurin）
-- 自动配置环境变量
-- 支持卸载Java
-- 支持切换当前使用的Java版本
+- Automatic detection of installed Java versions
+- Support for installing multiple Java versions (8/11/17/21)
+- Support for multiple Java distributions (OpenJDK/Amazon Corretto/Eclipse Temurin)
+- Automatic environment variable configuration
+- Support for Java uninstallation
+- Support for switching between Java versions
 
-## 使用方法
+## Usage
 
-1. 下载并运行 `Java环境管理工具.exe`
-2. 在菜单中选择需要的操作：
-   - 1: 检测已安装的Java
-   - 2: 安装新的Java版本
-   - 3: 卸载Java
-   - 4: 切换Java版本
-   - 5: 退出程序
+1. Download and run `Java Environment Management Tool.exe`
+2. Select the desired operation from the menu:
+   - 1: Detect installed Java versions
+   - 2: Install new Java version
+   - 3: Uninstall Java
+   - 4: Switch Java version
+   - 5: Exit program
 
-## 注意事项
+## Important Notes
 
-1. 请以管理员身份运行程序
-2. 安装或卸载Java时需要管理员权限
-3. 切换Java版本后需要重新打开命令行窗口
-4. 建议在安装新版本前先检测当前安装的Java
+1. Run the program with administrator privileges
+2. Administrator rights are required for Java installation/uninstallation
+3. Restart the command prompt after switching Java versions
+4. It is recommended to check currently installed Java versions before installing new ones
 
-## 系统要求
+## System Requirements
 
-- Windows 10 或更高版本
-- 管理员权限
-- 至少2GB可用磁盘空间
+- Windows 10 or later
+- Administrator privileges
+- At least 2GB of available disk space
 
-## 开发者信息
+## Developer Information
 
-如需修改或重新打包程序：
+To modify or repackage the program:
 
-1. 安装依赖：
+1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. 运行打包脚本：
+2. Run the build script:
 ```bash
 python build.py
 ```
 
-打包后的程序将位于 `dist` 目录中。
+The packaged program will be located in the `dist` directory.
 
-## 许可证
+## License
 
-本项目采用 GNU General Public License v3.0 (GPL-3.0) 许可证。
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
-完整许可证文本请参见 [LICENSE](LICENSE) 文件。
+The complete license text can be found in the [LICENSE](LICENSE) file.
 
-### 许可证摘要
+### License Summary
 
-- 您可以自由地运行、复制、分发、研究、修改和改进本软件
-- 您必须保留原始版权声明和许可证
-- 如果您分发修改后的版本，必须使用相同的许可证
-- 本软件按"原样"提供，不提供任何形式的担保
+- You are free to run, copy, distribute, study, modify, and improve the software
+- You must retain the original copyright notice and license
+- If you distribute modified versions, you must use the same license
+- The software is provided "as is" without any warranty
 
-更多信息请访问 [GNU GPL v3 官方网站](https://www.gnu.org/licenses/gpl-3.0.html) 
+For more information, visit the [GNU GPL v3 Official Website](https://www.gnu.org/licenses/gpl-3.0.html) 
